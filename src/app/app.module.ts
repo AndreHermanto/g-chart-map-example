@@ -1,5 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { GoogleChartsModule } from 'angular-google-charts';
+import {keys } from './keys/keys';
+
 
 import { AppComponent } from './app.component';
 
@@ -8,7 +11,11 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    GoogleChartsModule.forRoot({ 
+      version: '49',
+      mapsApiKey: keys.gmapApiKey
+     }),
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "g-chart-map-example"
+    }
+  },
+  "defaultProject": "g-chart-map-example",
+  "cli": {
+    "analytics": "7d9baa3f-0bec-4e92-a84d-716c874393d2"
+  }
 }

@@ -14,7 +14,7 @@ import { AppComponent } from './app.component';
     BrowserModule,
     GoogleChartsModule.forRoot({ 
       version: '49',
-      mapsApiKey: keys.gmapApiKey
+      mapsApiKey: 'AIzaSyBHKoUVV_z5rDn8Yc1QwjkFeZ9SbeC6ooM'
      }),
   ],
   providers: [],

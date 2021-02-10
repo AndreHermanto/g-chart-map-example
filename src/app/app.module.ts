@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { GoogleChartsModule } from 'angular-google-charts';
-import {keys } from './keys/keys';
 
 
 import { AppComponent } from './app.component';
